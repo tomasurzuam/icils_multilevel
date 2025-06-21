@@ -1,9 +1,49 @@
 # Introduction
 
-This is a book created from markdown and executable code.
+[**context & relevance**] Over the past decades, new technologies have expanded at an exponential pace. Indeed, today, most social interactions are mediated digitally, which has become an essential part of the popular culture in the new generations [@buckingham_mas_2008]. In this context, the proliferation of Information and Communication Technologies (ICT) plays a highly relevant role in society, as they have fostered improvements in human quality of life  and have contributed to diverse fields such as health, education, banking, transportation, and digital governance [@reddy_student_2020; @nand_metaheuristic_2019; @sharma_smart_2018; @reddy_tablet_2017; @pojani_sustainable_2015; @sharma_use_2015]. Therefore, ICT's have to potential to foster individual agency by allowing them to actively participate in new environments involving digitality, which consequently leads to their proper integration into society and prevents their marginalization from citizenship [@silvera_alfabetizacion_2005; @barroso_investigacion_2011; @cabero_tendencias_2016]. However, the differential mastery of digital technologies also have the potential of widening several social gaps in which they are embedded. This phenomenon has been termed the _digital divide_, which refers to the gap between individuals and societies that can access and participate in the information age and those who cannot [@chen_global_2004; @martin_digeulit_2006]. One of the most detrimental problems of the digital divide is the belief that experiencing it exacerbates other divides, such as economic and social ones [@camacho_brecha_2005].
 
-See @knuth84 for additional discussion of literate programming.
+[@tomasurzuam, revisar citas y actualizar, mucha cosa pre 2010 sobre temas digitales, probablemente desactualizadas]
 
-```{r}
-1 + 1
-```
+[Acá objeto de estudio -digital literacy/ICT- y medición @tomasurzuam; también profundizar lo de las 2 digital divides]
+
+[objetivo y argumento central] This paper seeks to address a specific aspect of the digital divide related to the socialization and learning of digital literacy during school age. Schools play a pivotal role in equipping students with the necessary skills to navigate and participate in the digital world, as the educational environment not only provides access to ICTs but also fosters the development of digital competencies through formal instruction and peer interactions. To this regard, the early exposure to digital technologies and guided learning experiences could mitigate existing inequalities at individual and country level. By emphasizing the importance of digital literacy as a core component of education, this study highlights how socio structural determinants such as family status and gender are related to differences in digital literacy. Besides, an special focus is directed to how this structural gaps can be moderated by contextual factors, such as national digital infrastructure, gender gaps in society, and the share of investment in education as part of the national GDP.  
+
+## Individual and contextual factors
+
+[socio-economic status]
+
+[gender]
+
+[otros: DSE & online learning-related tasks]
+
+## Country level factors
+
+There are substantial differences regarding the development and learning of ICTs across regions. [socio-economic] . [Educational investment] The state and governments have also undergone a reconfiguration of their organization due to digitalization processes [@busemeyer_digitalization_2022] ... .  [Gender]
+
+For example, the study by @gerick_schoollevel_2017 aimed to identify which school-level factors support or hinder the use of ICT by teachers and students, comparing Australia, Germany, Norway, and the Czech Republic [@tomasurzuam pero ... cuáles son estos factores? qué efecto tienen?]. Meanwhile, @aydin_multilevel_2022 focused on investigating the determinants of digital literacy among students, conducting a study that examined the characteristics of teachers and students through a comparative analysis between Finland and Korea. Similarly, this work seeks to understand the factors influencing digital literacy through a comparative analysis between countries, in order to elucidate how these predictors behave in different contexts. 
+
+[@tomasurzuam revisar programa IRC Rome, temas ICILS, para actualizar referencias de esto]
+
+# Hypotheses
+
+**Level 1 Hypotheses**
+
+$H_1$: A better performance in digital literacy is associated to family status and cultural capital [books] 
+
+$H_2$ Girls outperform boys in digital literacy scores
+
+$H_3$: The more online learning-related tasks the student performs at school, the higher their digital literacy score.
+
+**Level 2 Hypotheses**
+
+$H_4$: Children of more affluent countries (as measured by GDP) show higher scores in digital literacy 
+
+$H_5$: In countries with better gender indicators [precisar] girls achieve better scores than boys in digital literacy
+
+$H_6$: Countries with a larger investment in education perform better in digital literacy
+
+$H_7$: The positive association between family status and digital literacy is negatively moderated by educational investment
+
+[school level hypotheses? ]
+
+
