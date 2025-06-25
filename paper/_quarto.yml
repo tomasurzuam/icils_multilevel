@@ -3,16 +3,15 @@ project:
 
 book:
   title: "paper"
-  author: "Tomás Urzúa"
-  author: "Juan Carlos Castillo"
+  author: "Tomás Urzúa & Juan Carlos Castillo"
   date: "20-06-2025"
   chapters:
-    - abstract.qmd
+    - index.qmd
     - intro.qmd
     - methods.qmd
     - results.qmd
 
-bibliography: references.bib
+bibliography: invalsi.bib
 
 format:
   html:
