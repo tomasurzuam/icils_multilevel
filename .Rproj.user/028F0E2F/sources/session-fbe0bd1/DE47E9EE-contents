@@ -1,0 +1,64 @@
+---
+Title: "Introduction"
+bibliography: ["invalsi-icils.bib"]
+---
+
+# Introduction
+
+Over the last years, new technologies and the use of digital devices have expanded at an exponential pace. In this context, the proliferation of Information and Communication Technologies (ICT) plays a highly relevant role in society, as they have fostered improvements in human quality of life  and have contributed to diverse fields such as health, education, banking, transportation, and digital governance [@reddy_student_2020; @nand_metaheuristic_2019; @sharma_smart_2018; @reddy_tablet_2017; @pojani_sustainable_2015; @sharma_use_2015]. There is no doubt that ICT's have the potential to foster individual agency in new environments involving digital activities, which consequently leads to integration into society and prevents marginalization from proper citizenship [@barroso_investigacion_2011; @cabero_tendencias_2016]. However, the differential mastery of digital technologies also have the potential of widening several social gaps in which they are embedded. This phenomenon has been termed the _digital divide_, which refers to the gap between individuals and societies that can access and participate in the information age and those who cannot [@dijk_digital_2020]. These inequalities have to be adressed, as they can shape life chances in multiple dimensions [@robinson_digital_2015].
+
+[**research object**] In this world marked by digitalization and the inequalities that accompany it, digital literacy has become essential in order to reduce these gaps [@garcia-avila_alfabetizacion_2017]. This concept refers to a set of technical, cognitive, and metacognitive skills that enable individuals to function properly with digital services [@tinmaz_systematic_2022]. Currently, these competencies provide a series of tools that enable individuals to effectively engage in old and new spaces mediated by digital technology [@guillen-rascon_alfabetizacion_2016]. Part of their relevance has been expressed in the growing appearance of digital sections in large-scale international studies (i.e. PISA, TIMSS), although very few studies of this magnitude have succeeded in measuring digital literacy as such. ICILS operationalizes the concept of Computer and Information Literacy to study as "an individual’s ability to use computers to investigate, create, and communicate in order to participate effectively at home, at school, in the workplace, and in society” [@fraillon_icils_2013]. This is measured
+applying a standardized practical test to students, and its results have reflected the high disparity in digital literacy between regions [@tinmaz_snapshot_2022].
+
+[**objective**] This paper seeks to address a specific aspect of the digital divide related to the socialization and learning of digital literacy during school age. Schools play a pivotal role in equipping students with the necessary skills to navigate and participate in the digital world, as the educational environment not only provides access to ICTs but also fosters the development of digital competencies through formal instruction and peer interactions [@trucco_nuevas_2010]. To this regard, the early exposure to digital technologies and guided learning experiences have the potential to mitigate existing inequalities at individual, school and country level. By emphasizing the importance of digital literacy as a core component of education, this study highlights how socio structural determinants such as family status and gender are related to differences in digital literacy. Besides, an special focus is directed to how this structural gaps can be moderated by contextual factors, such as national digital infrastructure, gender gaps in society, and the share of investment in education as part of the national GDP.
+
+[Pregunta de investigación?]
+
+[@tomasurzuam agregar citas arriba]
+
+## Individual and contextual factors
+
+Family social status remains a crucial determinant of students' digital knowledge and abilities. Recent studies demonstrate that children from higher socio-economic backgrounds benefit from greater access to digital devices, high-speed internet, and supportive home environments, which collectively foster the development of digital skills [@scherer_gender_2023]. These families are more likely to provide educational resources, parental guidance, and opportunities for informal digital learning, further enhancing digital literacy [@gui_digital_2023]. In contrast, students from lower socio-economic backgrounds often encounter barriers such as limited access to technology and less parental support, which restrict their opportunities to acquire and practice digital competencies [@vandenbulck_digital_2022]. This persistent disparity in access and support perpetuates broader social inequalities, as digital skills are increasingly vital for educational success and participation in the digital economy.
+
+-> **Agregar cita de Caponera (Presentación IRC ROME)**
+
+Gender is a significant factor influencing digital literacy, though recent evidence suggests the nature of this relationship is evolving. While earlier studies often reported that boys held an advantage in digital skills, more recent cross-national research finds that gender gaps are narrowing or even reversing, with girls in some contexts outperforming boys in digital literacy assessments [@siddiq_gender_2016; @gui_digital_2023]. Girls tend to excel in competencies related to information management, communication, and safe online behavior, whereas boys may show strengths in technical or gaming-related domains [citas]. These patterns are shaped by socialization processes, cultural expectations, and differential access to digital resources at home and school. Importantly, the extent of gender differences in digital literacy is influenced by broader societal gender norms and policies, suggesting that both individual and contextual factors must be considered to understand and address gender disparities in digital skills development [@gui_digital_2023].
+
+
+Digital self-efficacy (DSE) is increasingly recognized as a key predictor of students' digital literacy. Students who believe in their ability to effectively use digital technologies are more likely to engage with digital tools, explore new applications, and persist in overcoming challenges [@scherer_gender_2023; @tsai_junior_2010]. Higher DSE is associated with greater confidence in navigating online environments, which translates into improved digital skills and learning outcomes [@hatlevik_digital_2015]. Furthermore, the frequency and diversity of online learning-related tasks performed at school—such as collaborating on digital platforms, conducting research, or submitting assignments electronically—provide students with practical opportunities to develop and refine their digital competencies [@fraillon_preparing_2020]. Empirical evidence suggests that students who regularly participate in such activities demonstrate higher levels of digital literacy, as these experiences foster both technical proficiency and critical thinking skills necessary for effective digital engagement [@fraillon_preparing_2020; @tsai_junior_2010]. Thus, both DSE and exposure to online learning tasks at school serve as important mechanisms through which educational environments can help bridge digital skill gaps.
+
+## Country level factors
+
+Cross-national differences in digital literacy are shaped by a range of country-level factors, including economic development, national digital infrastructure, educational investment, and gender equality indicators. First, countries with higher Gross Domestic Product (GDP) per capita tend to provide better access to digital resources, both at home and in schools, which facilitates the acquisition of digital skills among students. Economic prosperity enables greater investment in educational technology, teacher training, and digital learning environments, thereby supporting higher average digital literacy scores [@scherer_gender_2023].
+
+Second, the quality and reach of national digital infrastructure—such as broadband internet penetration, device availability, and connectivity in schools—play a critical role in enabling students to engage with digital tools and resources. Countries with advanced digital infrastructure offer more equitable opportunities for students to develop digital competencies, while those with limited infrastructure may exacerbate existing inequalities [@fraillon_preparing_2020]. Investments in national ICT infrastructure are thus essential for fostering digital inclusion and supporting effective digital learning.
+
+Third, the level of educational investment—often measured as the share of national GDP allocated to education—directly impacts the resources available for schools, teacher professional development, and the integration of digital technologies into curricula. Higher educational investment can reduce disparities in access to digital tools and support the implementation of digital literacy programs, thereby improving overall student outcomes and narrowing digital divides.
+
+Fourth, gender equality at the societal level can influence the extent of gender gaps in digital literacy. In countries with higher gender equality—measured by indicators such as the Global Gender Gap Index or female labor force participation—girls are more likely to access digital resources and receive encouragement to develop digital skills. These contexts may see narrower or even reversed gender gaps in digital literacy, as supportive policies and cultural norms promote equal opportunities for both boys and girls [@gui_digital_2023]. Conversely, in countries with persistent gender disparities, girls may face additional barriers to digital engagement, resulting in lower digital literacy outcomes.
+
+[@tomasurzuam revisar programa IRC Rome, temas ICILS, para actualizar referencias de esto]
+
+# Hypotheses
+
+**Level 1 Hypotheses**
+
+$H_1$: A better performance in digital literacy is associated to family status and cultural capital [books] 
+
+$H_2$ Girls outperform boys in digital literacy scores
+
+$H_3$: The more online learning-related tasks the student performs at school, the higher their digital literacy score.
+
+**Level 2 Hypotheses**
+
+$H_4$: Children of more affluent countries (as measured by GDP) show higher scores in digital literacy 
+
+$H_5$: In countries with better gender indicators [precisar] girls achieve better scores than boys in digital literacy
+
+$H_6$: Countries with a larger investment in education perform better in digital literacy
+
+$H_7$: The positive association between family status and digital literacy is negatively moderated by educational investment
+
+[school level hypotheses? ]
+
+# References
