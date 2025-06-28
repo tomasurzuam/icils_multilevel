@@ -69,6 +69,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -110,12 +139,6 @@ ul.task-list li input[type="checkbox"] {
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Index</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./abstract.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Abstract</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -166,6 +189,14 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p>The present study uses the database from the 2023 cycle of International Computer and Information Literacy Study (N = 135), which was applied in 35 countries. The unique feature of this database is that, for each country where the study was implemented, there are three types of data files for three established levels: school level, teacher level, and student level.</p>
+<p>After the data processing, final database is conformed by 94.704 students nested in 31 countries. Oman, Taiwan, Kosovo and Germany Westfalia were excluded due to have missing information about country level variables.</p>
+<p>The first model contains the individual level variables. Their ecuation is the following:</p>
+<p><span class="math display">\[\text{digital_lit}_{i} = \gamma_{10} \text{parents_education}_i + \gamma_{20} \text{books_home}_i + \gamma_{30} \text{sex}_i + \gamma_{40} \text{school_ict_learning}_i + r_{i}\]</span></p>
+<p>The second model manage the country level variables:</p>
+<p><span class="math display">\[\text{digital_lit}_{i} =  + \gamma_{01} \text{PIB}_{ij} + \gamma_{02} \text{gender_inequalities}_{ij} + \gamma_{03} \text{PIB_education}_{ij} + \gamma_{04} \text{e-government}_{ij} + r_{ij}\]</span></p>
+<p>From the two equations above, the complete equation for the multilevel model can be derived:</p>
+<p><span class="math display">\[\text{digital_lit}_{i} = \gamma_{10} \text{parents_education}_i + \gamma_{20} \text{books_home}_i + \gamma_{30} \text{sex}_i + \gamma_{40} \text{school_ict_learning}_i + \gamma_{01} \text{PIB}_{ij} + \gamma_{02} \text{gender_inequalities}_{ij} + \gamma_{03} \text{PIB_education}_{ij} + \gamma_{04} \text{e-government}_{ij} + r_{ij}\]</span></p>
 
 
 
