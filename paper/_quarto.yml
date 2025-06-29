@@ -2,7 +2,7 @@ project:
   type: book
 
 book:
-  title: "paper"
+  title: "Digital Literacy and the Digital Divide: Multilevel Analysis of Individual, School, and Country Factors Using ICILS Data"
   author: "Tomás Urzúa & Juan Carlos Castillo"
   date: "20-06-2025"
   chapters:
@@ -14,10 +14,10 @@ book:
 bibliography: invalsi-icils.bib
 
 format:
-  html:
-    theme: cosmo
-  pdf:
-    documentclass: scrreprt
+  docx: 
+    number-sections: true
+#  html:
+#    theme: cosmo    
 
-editor: visual
+editor: source
 

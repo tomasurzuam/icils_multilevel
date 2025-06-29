@@ -1,12 +1,18 @@
 ---
-Title: "Introduction"
+title: "Digital Literacy and the Digital Divide: Multilevel Analysis of Individual, School, and Country Factors Using ICILS Data"
 bibliography: ["invalsi-icils.bib"]
 format:
+  html:
+    type: html-document
+    toc: true
+    number-sections: true
+    theme: cosmo
   docx: 
     number-sections: true
+    reference-doc: reference.docx 
+editor: source
 ---
 
-# Digital Literacy and the Digital Divide: Multilevel Analysis of Individual, School, and Country Factors Using ICILS Data
 
 # Introduction
 
@@ -21,7 +27,9 @@ applying a standardized practical test to students, and its results have reflect
 
 [@tomasurzuam agregar citas arriba]
 
-## Individual and contextual factors
+# Individual and contextual factors
+
+## Student level factors
 
 Family social status remains a crucial determinant of students' digital knowledge and abilities. Recent studies demonstrate that children from higher socio-economic backgrounds benefit from greater access to digital devices, high-speed internet, and supportive home environments, which collectively foster the development of digital skills [@scherer_gender_2023]. These families are more likely to provide educational resources, parental guidance, and opportunities for informal digital learning, further enhancing digital literacy [@gui_digital_2023]. In contrast, students from lower socio-economic backgrounds often encounter barriers such as limited access to technology and less parental support, which restrict their opportunities to acquire and practice digital competencies [@vandenbulck_digital_2022]. This persistent disparity in access and support perpetuates broader social inequalities, as digital skills are increasingly vital for educational success and participation in the digital economy.
 
@@ -65,5 +73,39 @@ $H_6$: Countries with a larger investment in education perform better in digital
 $H_7$: The positive association between family status and digital literacy is negatively moderated by educational investment
 
 [school level hypotheses? ]
+
+# Methods
+
+The present study uses the database from the 2023 cycle of
+International Computer and Information Literacy
+Study (N = 135), which was applied in 35 countries. The unique feature of this database is that, for
+each country where the study was implemented, there are three types of
+data files for three established levels: school level,
+teacher level, and student level. 
+
+After the data processing, final database is conformed by 94.704 students nested in 31 countries. Oman, Taiwan, Kosovo and Germany Westfalia were excluded due to have missing information about country level variables. 
+
+The first model contains the individual level variables. Their ecuation is the following: 
+
+
+$$
+\begin{aligned}
+  digital\_literacy_{ij}&=\gamma_{00} + \mu_{0j} + r_{ij}  \;\;\;\;\; (null\,model) \\
+  &= + \gamma_{10}parents\_education_{ij} + \gamma_{20}books\_at\_home_{ij} \\
+  & \;\;\;\;\; + \gamma_{30}sex_{ij} + \gamma_{40}school\_ict\_learning_{ij} \;\;\;\;\; (individual\,model) \\ 
+  &= + \gamma_{01}PIB_j + \gamma_{02}gender\_inequalities_{j} + \gamma_{03}PIB\_education_j + \\
+  & \;\;\;\;\; \gamma_{04}e-government_j \;\;\;\;\; (country\,model) 
+\end{aligned}
+$$
+
+
+
+# Results
+
+After calculating the null model, the ICC gives 0.19, which means that 19% of the variance in digital literacy is due to country membership. 
+
+Regarding the individuals hypotheses, $H_1$ is verified, where the fact that at least one of a student's parents has a university degree increases the digital literacy score by 18.84 compared to those students without university-educated parents. $H_2$ is not rejected, observing that women score 11.83 points higher than men in digital literacy. The last level 1 hypothesis $H_3$ is validated, where for each additional unit of ICT learning at school, the digital literacy score increases by 0.16. 
+
+About the country-level hypothesis, 
 
 # References

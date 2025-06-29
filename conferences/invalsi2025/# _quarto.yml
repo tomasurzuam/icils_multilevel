@@ -1,0 +1,8 @@
+# _quarto.yml
+project:
+  type: manuscript
+
+format:
+  html:
+    theme: cosmo   
+  docx: default
