@@ -40,8 +40,8 @@ rm(BSGAUTI3, BSGAZEI3, BSGBFLI3, BSGBIHI3, BSGCHLI3, BSGCYPI3, BSGCZEI3, BSGDEUI
 # 2. Seleccionar variables nivel 1
 
 icils_23_proc <- icils_2023 %>%
-  select( CNTRY, IDSCHOOL, IISB, S_SEX, S_LRNINTS, S_GENCLASS, PV1CIL, 
-          S_IMMBGR, IS3G09, IS3G13, IS3G14)
+  select( CNTRY, IDSCHOOL, S_SEX, S_LRNINTS, S_GENCLASS, PV1CIL, 
+          IS3G09, IS3G13, IS3G14)
 
 # 3. Procesamiento de variables 
 
@@ -51,8 +51,6 @@ icils_23_proc$S_SEX <- recode(icils_23_proc$S_SEX, "c(8, 9)=NA")
 icils_23_proc$S_GENCLASS <- recode(icils_23_proc$S_GENCLASS, "c(998, 999)=NA")
 icils_23_proc$PV1CIL <- recode(icils_23_proc$PV1CIL, "c(998, 999)=NA")
 icils_23_proc$S_LRNINTS <- recode(icils_23_proc$S_LRNINTS, "c(998, 999)=NA")
-icils_23_proc$IISB <- recode(icils_23_proc$IISB, "c(998, 999)=NA")
-icils_23_proc$S_IMMBGR <- recode(icils_23_proc$S_IMMBGR, "c(8, 9)=NA")
 icils_23_proc$IS3G09 <- recode(icils_23_proc$IS3G09, "c(2, 3, 4, 5)=0; c(1)=1; c(8, 9)=NA")
 icils_23_proc$IS3G13 <- recode(icils_23_proc$IS3G13, "c(2, 3, 4, 5)=0; c(1)=1; c(8, 9)=NA")
 icils_23_proc$IS3G14 <- recode(icils_23_proc$IS3G14, "c(8, 9)=NA")
@@ -63,8 +61,6 @@ icils_23_proc <- icils_23_proc %>% rename("sexo"= S_SEX,
                                           "aprendizaje_escuela"= S_LRNINTS,
                                           "alf_digital"= PV1CIL,
                                           "autoeffgen"= S_GENCLASS,
-                                          "iiseb"= IISB,
-                                          "inmigrante"= S_IMMBGR, 
                                           "educ_p1"= IS3G09,
                                           "educ_p2"= IS3G13,
                                           "libros_hogar"= IS3G14)

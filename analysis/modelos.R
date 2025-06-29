@@ -34,10 +34,8 @@ icils_lvl_2$pib_education <- set_label(icils_lvl_2$pib_education, "PIB en educac
 icils_c <- icils %>% 
   group_by(CNTRY) %>% 
   mutate(sexo.cmc = sexo-mean(sexo),
-         inmigrante.cmc = inmigrante-mean(inmigrante),
          aprendizaje_escuela.cmc = aprendizaje_escuela-mean(aprendizaje_escuela),
          autoeffgen.cmc = autoeffgen-mean(autoeffgen),
-         iiseb.cmc = iiseb-mean(iiseb),
          educ_padres.cmc = educ_padres-mean(educ_padres),
          libros_hogar.cmc = libros_hogar-mean(libros_hogar))%>% 
   ungroup()
@@ -45,10 +43,8 @@ icils_c <- icils %>%
 # Etiquetar variables para visualización de la tabla
 
 icils$sexo.cmc <- set_label(icils$sexo.cmc, "Sexo de estudiante")
-icils$inmigrante.cmc <- set_label(icils$inmigrante.cmc, "Migrante")
 icils$aprendizaje_escuela.cmc <- set_label(icils$aprendizaje_escuela.cmc, "Tareas relacionadas al aprendizaje online en la escuela")
 icils$autoeffgen.cmc <- set_label(icils$autoeffgen.cmc, "Autoeficacia digital general del estudiante")
-icils$iiseb.cmc <- set_label(icils$iiseb, "Índice Socioeconómico Internacional")
 icils$alf_digital <- set_label(icils$alf_digital, "Puntaje de alfabetización digital")
 icils$educ_padres.cmc <- set_label(icils$educ_padres.cmc, "Padres con título universitario")
 icils$libros_hogar.cmc <- set_label(icils$libros_hogar.cmc, "Libros en el hogar")
@@ -62,11 +58,8 @@ reghelper::ICC(null)
 
 # Modelo nivel 1 acorde a hipótesis 
 results_1 = lmer(alf_digital ~ 1 + sexo.cmc + aprendizaje_escuela.cmc + 
-                 educ_padres.cmc + libros_hogar.cmc + (1 | CNTRY), data = icils_c)
+                 educ_padres.cmc + libros_hogar.cmc + autoeffgen.cmc + (1 | CNTRY), data = icils_c)
 screenreg(results_1)
-
-# *crear variable del pib en educacion en decimal
-icils_c$pib_education_dec <- icils_c$pib_education * 0.01
 
 # Modelo nivel 2 
 results_2 = lmer(alf_digital ~ 1 + gender_ineq + admin_dig + pib_education +
